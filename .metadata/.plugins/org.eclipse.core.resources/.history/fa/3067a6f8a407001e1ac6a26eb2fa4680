@@ -1,0 +1,5 @@
+package com.examen.Farmacia.entity;
+
+public class Lotes {
+
+}

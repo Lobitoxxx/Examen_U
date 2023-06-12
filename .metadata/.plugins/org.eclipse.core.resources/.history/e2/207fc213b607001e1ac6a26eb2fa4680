@@ -1,0 +1,42 @@
+package com.examen.Farmacia.service;
+
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.examen.Farmacia.entity.Ajustes;
+import com.examen.Farmacia.repository.AjustesRepository;
+
+
+@Service
+public class AjustesServiceImplement implements AjustesService{
+	@Autowired
+	 AjustesRepository  x;
+
+	@Override
+	public Ajustes registrar(Ajustes a) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Ajustes actualizar(Ajustes a) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(Ajustes a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Ajustes> ver() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

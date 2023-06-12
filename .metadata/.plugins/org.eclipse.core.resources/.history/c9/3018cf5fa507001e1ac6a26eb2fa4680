@@ -1,0 +1,5 @@
+package com.examen.Farmacia.repository;
+
+public interface Detalle_loteRepository {
+
+}
